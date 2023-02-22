@@ -53,7 +53,7 @@ public class IfStatementWithoutCurlyBraces {
 
         System.out.println("-----------------------------------------------");
 
-
+        // IF STATEMENT WITHOUT CURLY BRACES IS NOT A GOOD PRACTICE
 
 
 
