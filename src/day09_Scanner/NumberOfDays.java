@@ -6,7 +6,7 @@ public class NumberOfDays {
         int month = 12;
         String result = "";
 
-        switch (month){
+        switch (month){ // long and float and double is not acceptable. **can put l or L & f or F & d or D
 
             case 2:
                 result = "28 days";

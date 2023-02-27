@@ -1,13 +1,535 @@
 <component name="InspectionProjectProfileManager">
   <profile version="1.0">
     <option name="myName" value="Project Default" />
-    <inspection_tool class="ConstantValue" enabled="true" level="WARNING" enabled_by_default="true">
+    <inspection_tool class="AccessToNonThreadSafeStaticFieldFromInstance" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="AccessToStaticFieldLockedOnInstance" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="AmbiguousFieldAccess" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="AmbiguousMethodCall" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="AnonymousClassVariableHidesContainingMethodVariable" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="AnonymousFunctionJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ArrayEquals" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ArrayHashCode" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ArrayObjectsEquals" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="AssertWithSideEffects" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="AssertWithoutMessage" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="AssignmentResultUsedJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="AssignmentToForLoopParameterJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="AssignmentToFunctionParameterJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="AtomicFieldUpdaterIssues" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="AtomicFieldUpdaterNotStaticFinal" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="AutoCloseableResource" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="AwaitNotInLoop" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="AwaitWithoutCorrespondingSignal" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="BadExpressionStatementJS" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="BlockStatementJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="BreakStatementJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="BreakStatementWithLabelJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="BusyWait" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="CallToNativeMethodWhileLocked" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="CallerJS" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="CapturingCleaner" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="CastCanBeRemovedNarrowingVariableType" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ChainedEqualityJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ChainedFunctionCallJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ChannelResource" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ClassEscapesItsScope" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ClassGetClass" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ClassHasNoToStringMethod" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ClassLoaderInstantiation" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ClassNewInstance" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="CloneableClassInSecureContext" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="CollectionAddedToSelf" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="CommaExpressionJS" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ComparatorMethodParameterNotUsed" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ComparatorNotSerializable" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ComparatorResultComparison" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="CompareToUsesNonFinalVariable" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ConditionCoveredByFurtherCondition" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ConditionSignal" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ConditionalExpressionJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ConditionalExpressionWithIdenticalBranchesJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ConfusingFloatingPointLiteralJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ConfusingPlusesOrMinusesJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ConstantAssertArgument" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ConstantConditionalExpressionJS" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ConstantOnLHSOfComparisonJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ConstantOnRHSOfComparisonJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ConstantValue" enabled="true" level="INFORMATION" enabled_by_default="true">
       <option name="REPORT_CONSTANT_REFERENCE_VALUES" value="false" />
     </inspection_tool>
+    <inspection_tool class="ContinueOrBreakFromFinallyBlockJS" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ContinueStatementJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ContinueStatementWithLabelJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="Contract" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ConvertJavadoc" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ConvertOldAnnotations" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="CopyConstructorMissesField" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="CustomClassloader" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="CustomSecurityManager" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="CyclomaticComplexityJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="DataFlowIssue" enabled="true" level="INFORMATION" enabled_by_default="true">
+      <option name="SUGGEST_NULLABLE_ANNOTATIONS" value="false" />
+      <option name="DONT_REPORT_TRUE_ASSERT_STATEMENTS" value="false" />
+    </inspection_tool>
+    <inspection_tool class="DataProviderReturnType" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="DebuggerStatementJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="DefaultNotLastCaseInSwitchJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="DesignForExtension" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="DivideByZeroJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="DocumentWriteJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="DoubleCheckedLocking" enabled="true" level="INFORMATION" enabled_by_default="true">
+      <option name="ignoreOnVolatileVariables" value="false" />
+    </inspection_tool>
+    <inspection_tool class="DriverManagerGetConnection" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="DuplicateBranchesInSwitch" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="DuplicateConditionJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="DuplicateExpressions" enabled="true" level="INFORMATION" enabled_by_default="true" />
     <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
       <Languages>
         <language minSize="83" name="Java" />
       </Languages>
+    </inspection_tool>
+    <inspection_tool class="DuplicatedDataProviderNames" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="DynamicallyGeneratedCodeJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ES6BindWithArrowFunction" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ES6CheckImport" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ES6ClassMemberInitializationOrder" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ES6ConvertVarToLetConst" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ES6DestructuringVariablesMerge" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ES6MissingAwait" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ES6PossiblyAsyncFunction" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ES6PreferShortImport" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ES6RedundantAwait" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ES6RedundantNestingInTemplateLiteral" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ES6TopLevelAwaitExpression" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ES6UnusedImports" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="EmptyCatchBlockJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="EmptyFinallyBlockJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="EmptyStatementBody" enabled="true" level="INFORMATION" enabled_by_default="true">
+      <option name="m_reportEmptyBlocks" value="true" />
+    </inspection_tool>
+    <inspection_tool class="EmptyStatementBodyJS" enabled="true" level="INFORMATION" enabled_by_default="true">
+      <option name="m_reportEmptyBlocks" value="false" />
+    </inspection_tool>
+    <inspection_tool class="EmptySynchronizedStatement" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="EmptyTryBlockJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="EndlessStream" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="EqualsBetweenInconvertibleTypes" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="EqualsOnSuspiciousObject" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="EqualsUsesNonFinalVariable" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="EqualsWhichDoesntCheckParameterClass" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="EqualsWithItself" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="Eslint" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ExceptionCaughtLocallyJS" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ExcessiveLambdaUsage" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ExcessiveRangeCheck" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ExpectedExceptionNeverThrownTestNG" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ExplicitArrayFilling" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ExtendsThread" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ExternalizableWithSerializationMethods" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ExternalizableWithoutPublicNoArgConstructor" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="FallThroughInSwitchStatementJS" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="FieldAccessedSynchronizedAndUnsynchronized" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="FieldHidesSuperclassField" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="FieldNotUsedInToString" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="FlowJSConfig" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="FlowJSCoverage" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="FlowJSError" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="FlowJSFlagCommentPlacement" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ForLoopReplaceableByWhileJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ForLoopThatDoesntUseLoopVariableJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="FunctionNamingConventionJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="FunctionWithInconsistentReturnsJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="FunctionWithMultipleLoopsJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="FunctionWithMultipleReturnPointsJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="HashCodeUsesNonFinalVariable" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="HibernateResource" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="IOResource" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="IfStatementWithIdenticalBranchesJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="IfStatementWithTooManyBranchesJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="IgnoreResultOfCall" enabled="true" level="INFORMATION" enabled_by_default="true">
+      <option name="m_reportAllNonLibraryCalls" value="false" />
+      <option name="callCheckString" value="java.io.File,.*,java.io.InputStream,read|skip|available|markSupported,java.io.Reader,read|skip|ready|markSupported,java.lang.AbstractStringBuilder,capacity|codePointAt|codePointBefore|codePointCount|indexOf|lastIndexOf|offsetByCodePoints|substring|subSequence,java.lang.Boolean,.*,java.lang.Byte,.*,java.lang.Character,.*,java.lang.Double,.*,java.lang.Float,.*,java.lang.Integer,.*,java.lang.Long,.*,java.lang.Math,.*,java.lang.Object,equals|hashCode|toString,java.lang.Short,.*,java.lang.StrictMath,.*,java.lang.String,.*,java.lang.Thread,interrupted,java.math.BigDecimal,.*,java.math.BigInteger,.*,java.net.InetAddress,.*,java.net.URI,.*,java.nio.channels.AsynchronousChannelGroup,.*,java.util.Arrays,.*,java.util.Collections,(?!addAll).*,java.util.List,of,java.util.Map,of|ofEntries|entry,java.util.Set,of,java.util.UUID,.*,java.util.concurrent.BlockingQueue,offer|remove,java.util.concurrent.CountDownLatch,await|getCount,java.util.concurrent.ExecutorService,awaitTermination|isShutdown|isTerminated,java.util.concurrent.ForkJoinPool,awaitQuiescence,java.util.concurrent.Semaphore,tryAcquire|availablePermits|isFair|hasQueuedThreads|getQueueLength|getQueuedThreads,java.util.concurrent.locks.Condition,await|awaitNanos|awaitUntil,java.util.concurrent.locks.Lock,tryLock|newCondition,java.util.regex.Matcher,pattern|toMatchResult|start|end|group|groupCount|matches|find|lookingAt|quoteReplacement|replaceAll|replaceFirst|regionStart|regionEnd|hasTransparentBounds|hasAnchoringBounds|hitEnd|requireEnd,java.util.regex.Pattern,.*,java.util.stream.BaseStream,.*,java.util.stream.DoubleStream,.*,java.util.stream.IntStream,.*,java.util.stream.LongStream,.*,java.util.stream.Stream,.*" />
+    </inspection_tool>
+    <inspection_tool class="ImplicitArrayToString" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="IncompatibleMaskJS" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="IncorrectDateTimeFormat" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="IncrementDecrementResultUsedJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="InfiniteLoopJS" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="InfiniteRecursion" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="InfiniteRecursionJS" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="InnerClassReferencedViaSubclass" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="InnerClassVariableHidesOuterClassVariable" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="InnerHTMLJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="InstanceofIncompatibleInterface" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="InstantiationOfUtilityClass" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="InvalidComparatorMethodReference" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="IterableUsedAsVararg" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="IteratorHasNextCallsIteratorNext" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="IteratorNextDoesNotThrowNoSuchElementException" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="JDBCExecuteWithNonConstantString" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="JDBCPrepareStatementWithNonConstantString" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="JDBCResource" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="JNDIResource" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="JSAccessibilityCheck" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSAnnotator" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSAssignmentUsedAsCondition" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSBitwiseOperatorUsage" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSCheckFunctionSignatures" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSClassNamingConvention" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="JSClosureCompilerSyntax" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSCommentMatchesSignature" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSComparisonWithNaN" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSConsecutiveCommasInArrayLiteral" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSConstantReassignment" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSConstructorReturnsPrimitive" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="JSDeclarationsAtScopeStart" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="JSDeprecatedSymbols" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSDuplicateCaseLabel" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSDuplicatedDeclaration" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSEqualityComparisonWithCoercion" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSEqualityComparisonWithCoercion.TS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="JSFileReferences" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSHint" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="JSIgnoredPromiseFromCall" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSIncompatibleTypesComparison" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSJQueryEfficiency" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSLastCommaInArrayLiteral" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSLastCommaInObjectLiteral" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSMismatchedCollectionQueryUpdate" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSNonASCIINames" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSNonStrictModeUsed" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="JSObjectNullOrUndefined" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSOctalInteger" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSPotentiallyInvalidConstructorUsage" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSPotentiallyInvalidTargetOfIndexedPropertyAccess" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSPotentiallyInvalidUsageOfClassThis" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSPotentiallyInvalidUsageOfThis" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSPrimitiveTypeWrapperUsage" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSReferencingMutableVariableFromClosure" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSSuspiciousEqPlus" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSSuspiciousNameCombination" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSSwitchVariableDeclarationIssue" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSTestFailedLine" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSTypeOfValues" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSUndeclaredVariable" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSUndefinedPropertyAssignment" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSUnfilteredForInLoop" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="JSUnnecessarySemicolon" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSUnreachableSwitchBranches" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSUnresolvedExtXType" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSUnresolvedFunction" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSUnresolvedLibraryURL" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSUnresolvedVariable" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSUnusedAssignment" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSUnusedGlobalSymbols" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSUnusedLocalSymbols" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSValidateJSDoc" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSValidateTypes" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSVoidFunctionReturnValueUsed" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSXSyntaxUsed" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="JSXUnresolvedComponent" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JUnitTestNG" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="Java9ModuleExportsPackageToItself" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="Java9ReflectionClassVisibility" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="Java9UndeclaredServiceUsage" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JavaFxColorRgb" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JavaFxDefaultTag" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JavaFxEventHandler" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JavaFxRedundantPropertyValue" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JavaFxResourcePropertyValue" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JavaFxUnresolvedFxIdReference" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JavaFxUnresolvedStyleClassReference" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JavaFxUnusedImports" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JavaLangInvokeHandleSignature" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JavaReflectionInvocation" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JavaReflectionMemberAccess" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JavaeeApplicationDomInspection" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="KarmaConfigFile" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="LabeledStatementJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="LambdaParameterHidingMemberVariable" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="LoadLibraryWithNonConstantString" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="LocalVariableHidingMemberVariable" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="LocalVariableNamingConventionJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="LoopStatementThatDoesntLoopJS" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="MagicConstant" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="MagicNumberJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="MalformedDataProvider" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="MalformedFormatString" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ManualMinMaxCalculation" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="MaskedAssertion" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="MathRandomCastToInt" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="MeaninglessRecordAnnotationInspection" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="MethodMayBeSynchronized" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="MethodOverloadsParentMethod" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="MethodOverridesInaccessibleMethodOfSuper" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="MethodOverridesStaticMethod" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="MimeType" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="MismatchedArrayReadWrite" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="MismatchedCollectionQueryUpdate" enabled="true" level="INFORMATION" enabled_by_default="true">
+      <option name="queryNames">
+        <value />
+      </option>
+      <option name="updateNames">
+        <value />
+      </option>
+      <option name="ignoredClasses">
+        <value />
+      </option>
+    </inspection_tool>
+    <inspection_tool class="MismatchedStringBuilderQueryUpdate" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="MismatchedStringCase" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="MisorderedAssertEqualsArguments" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="MissingSerialAnnotation" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="NakedNotify" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="NegatedConditionalExpressionJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="NegatedIfStatementJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="NestedAssignmentJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="NestedConditionalExpressionJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="NestedFunctionCallJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="NestedFunctionJS" enabled="false" level="INFORMATION" enabled_by_default="false">
+      <option name="m_includeAnonymousFunctions" value="false" />
+    </inspection_tool>
+    <inspection_tool class="NestedSwitchStatementJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="NestedSynchronizedStatement" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="NestingDepthJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="NewObjectEquality" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="NewStringBufferWithCharArgument" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="NodeCoreCodingAssistance" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="NonAtomicOperationOnVolatileField" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="NonBlockStatementBodyJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="NonFinalClone" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="NonSerializableFieldInSerializableClass" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="NonSerializableObjectBoundToHttpSession" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="NonSerializableObjectPassedToObjectStream" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="NonSerializableWithSerialVersionUIDField" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="NonSerializableWithSerializationMethods" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="NonShortCircuitBoolean" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="NonStrictComparisonCanBeEquality" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="NonSynchronizedMethodOverridesSynchronizedMethod" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="NotifyCalledOnCondition" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="NotifyWithoutCorrespondingWait" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="NpmUsedModulesInstalled" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="NullArgumentToVariableArgMethod" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="NumberEquality" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ObjectAllocationIgnoredJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ObjectNotify" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ObviousNullCheck" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="OnlyOneElementUsed" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="OptionalGetWithoutIsPresent" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="OverflowingLoopIndex" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="OverlyComplexArithmeticExpressionJS" enabled="false" level="INFORMATION" enabled_by_default="false">
+      <option name="m_limit" value="6" />
+    </inspection_tool>
+    <inspection_tool class="OverlyComplexBooleanExpressionJS" enabled="false" level="INFORMATION" enabled_by_default="false">
+      <option name="m_limit" value="3" />
+    </inspection_tool>
+    <inspection_tool class="OverwrittenKey" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="PackageJsonMismatchedDependency" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ParameterHidingMemberVariable" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ParameterNamingConventionJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ParametersPerFunctionJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="PatternVariableHidesField" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="PlatformDetectionJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="PointlessArithmeticExpressionJS" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="PointlessBitwiseExpressionJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="PointlessBooleanExpressionJS" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="PrimitiveArrayArgumentToVariableArgMethod" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="PublicConstructorInNonPublicClass" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="PublicFieldAccessedInSynchronizedContext" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="PublicStaticArrayField" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="PublicStaticCollectionField" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ReadObjectAndWriteObjectPrivate" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ReadObjectInitialization" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ReadResolveAndWriteReplaceProtected" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="RedundantArrayCreation" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="RedundantCast" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="RedundantClassCall" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="RedundantCollectionOperation" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="RedundantComparatorComparing" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="RedundantCompareCall" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="RedundantCompareToJavaTime" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="RedundantEscapeInRegexReplacement" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="RedundantFileCreation" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="RedundantLengthCheck" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="RedundantOperationOnEmptyContainer" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="RedundantStreamOptionalCall" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="RedundantTypeArguments" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="RedundantUnmodifiable" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ReflectionForUnavailableAnnotation" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ReplaceAllDot" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ReplaceAssignmentWithOperatorAssignmentJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ReplaceOnLiteralHasNoEffect" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ReservedWordUsedAsNameJS" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ResultOfObjectAllocationIgnored" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ResultSetIndexZero" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ReturnFromFinallyBlockJS" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ReturnNull" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="ReuseOfLocalVariableJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="RuntimeExecWithNonConstantString" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="SafeLock" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ScheduledThreadPoolExecutorWithZeroCoreThreads" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="SecurityRoles" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="SerialAnnotationUsedOnWrongMember" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="SerialPersistentFieldsWithWrongSignature" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="SerialVersionUIDNotStaticFinal" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="SerializableDeserializableClassInSecureContext" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="SerializableHasSerializationMethods" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="SerializableInnerClassHasSerialVersionUIDField" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="SerializableInnerClassWithNonSerializableOuterClass" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="SerializableRecordContainsIgnoredMembers" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="SerializableStoresNonSerializable" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="SerializableWithUnconstructableAncestor" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ServletWithoutMappingInspection" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="SharedThreadLocalRandom" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ShiftOutOfRangeJS" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="SignalWithoutCorrespondingAwait" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="SillyAssignmentJS" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="SimplifiableAssertion" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="SimplifyCollector" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="SimplifyOptionalCallChains" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="SimplifyStreamApiCallChains" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="SleepWhileHoldingLock" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="SocketResource" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="SortedCollectionWithNonComparableKeys" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="StandardJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="StatementsPerFunctionJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="StaticCallOnSubclass" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="StaticFieldReferenceOnSubclass" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="StaticInitializerReferencesSubClass" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="StringBufferReplaceableByString" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="StringConcatenationInFormatCall" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="StringConcatenationInMessageFormatCall" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="StringConcatenationMissingWhitespace" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="StringEquality" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="StringEqualsCharSequence" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="StringLiteralBreaksHTMLJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="StringOperationCanBeSimplified" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="StringTokenizerDelimiter" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="SubtractionInCompareTo" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="SuspiciousArrayCast" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="SuspiciousArrayMethodCall" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="SuspiciousDateFormat" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="SuspiciousIndentAfterControlStatement" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="SuspiciousIntegerDivAssignment" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="SuspiciousInvocationHandlerImplementation" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="SuspiciousListRemoveInLoop" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="SuspiciousMethodCalls" enabled="true" level="INFORMATION" enabled_by_default="true">
+      <option name="REPORT_CONVERTIBLE_METHOD_CALLS" value="true" />
+    </inspection_tool>
+    <inspection_tool class="SuspiciousNameCombination" enabled="true" level="INFORMATION" enabled_by_default="true">
+      <group names="x,width,left,right" />
+      <group names="y,height,top,bottom" />
+      <ignored>
+        <option name="METHOD_MATCHER_CONFIG" value="java.io.PrintStream,println,java.io.PrintWriter,println,java.lang.System,identityHashCode,java.sql.PreparedStatement,set.*,java.sql.ResultSet,update.*,java.sql.SQLOutput,write.*,java.lang.Integer,compare.*,java.lang.Long,compare.*,java.lang.Short,compare,java.lang.Byte,compare,java.lang.Character,compare,java.lang.Boolean,compare,java.lang.Math,.*,java.lang.StrictMath,.*" />
+      </ignored>
+    </inspection_tool>
+    <inspection_tool class="SuspiciousSystemArraycopy" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="SuspiciousTernaryOperatorInVarargsCall" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="SuspiciousToArrayCall" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="SuspiciousTypeOfGuard" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="SynchronizationOnGetClass" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="SynchronizationOnLocalVariableOrMethodParameter" enabled="true" level="INFORMATION" enabled_by_default="true">
+      <option name="reportLocalVariables" value="true" />
+      <option name="reportMethodParameters" value="true" />
+    </inspection_tool>
+    <inspection_tool class="SynchronizationOnStaticField" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="SynchronizeOnLock" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="SynchronizeOnNonFinalField" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="SynchronizeOnThis" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="SynchronizedMethod" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="SynchronizedOnLiteralObject" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="SystemProperties" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="SystemRunFinalizersOnExit" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="SystemSetSecurityManager" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="TailRecursionJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="TextLabelInSwitchStatement" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="TextLabelInSwitchStatementJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ThisExpressionReferencesGlobalObjectJS" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ThreadLocalNotStaticFinal" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ThreadPriority" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ThreadStartInConstruction" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ThreadStopSuspendResume" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ThreadWithDefaultRunMethod" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ThreadYield" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ThreeNegationsPerFunctionJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ThrowFromFinallyBlockJS" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="ThrowableNotThrown" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="TransientFieldInNonSerializableClass" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="TransientFieldNotInitialized" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="TrivialConditionalJS" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="TrivialIfJS" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="TsLint" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="TypeParameterHidesVisibleType" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="TypeScriptAbstractClassConstructorCanBeMadeProtected" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="TypeScriptCheckImport" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="TypeScriptConfig" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="TypeScriptDuplicateUnionOrIntersectionType" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="TypeScriptFieldCanBeMadeReadonly" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="TypeScriptJSXUnresolvedComponent" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="TypeScriptLibrary" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="TypeScriptMissingConfigOption" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="TypeScriptRedundantGenericType" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="TypeScriptSmartCast" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="TypeScriptSuspiciousConstructorParameterAssignment" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="TypeScriptUMDGlobal" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="TypeScriptUnresolvedFunction" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="TypeScriptUnresolvedVariable" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="TypeScriptValidateGenericTypes" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="TypeScriptValidateJSTypes" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="TypeScriptValidateTypes" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="UnconditionalWait" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="UndeclaredTests" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="UnnecessaryBreak" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="UnnecessaryContinue" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="UnnecessaryContinueJS" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="UnnecessaryDefault" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="UnnecessaryLabelJS" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="UnnecessaryLabelOnBreakStatement" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="UnnecessaryLabelOnBreakStatementJS" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="UnnecessaryLabelOnContinueStatement" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="UnnecessaryLabelOnContinueStatementJS" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="UnnecessaryLocalVariableJS" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="UnnecessaryReturn" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="UnnecessaryReturnJS" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="UnnecessaryStringEscape" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="UnreachableCodeJS" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="UnresolvedPropertyKey" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="UnsecureRandomNumberGeneration" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="UnterminatedStatementJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="UnusedAssignment" enabled="true" level="INFORMATION" enabled_by_default="true">
+      <option name="REPORT_PREFIX_EXPRESSIONS" value="false" />
+      <option name="REPORT_POSTFIX_EXPRESSIONS" value="true" />
+      <option name="REPORT_REDUNDANT_INITIALIZER" value="true" />
+    </inspection_tool>
+    <inspection_tool class="UnusedCatchParameterJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="UseOfPropertiesAsHashtable" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="VariableNotUsedInsideIf" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="VoidExpressionJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="VolatileArrayField" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="WaitCalledOnCondition" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="WaitNotInLoop" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="WaitNotifyNotInSynchronizedContext" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="WaitOrAwaitWithoutTimeout" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="WaitWhileHoldingTwoLocks" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="WaitWithoutCorrespondingNotify" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="WebProperties" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="WebWarnings" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="WebpackConfigHighlighting" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="WhileLoopSpinsOnField" enabled="true" level="INFORMATION" enabled_by_default="true">
+      <option name="ignoreNonEmtpyLoops" value="true" />
+    </inspection_tool>
+    <inspection_tool class="WithStatementJS" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="WriteOnlyObject" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="WrongPackageStatement" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="XHTMLIncompatabilitiesJS" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="dependsOnMethodTestNG" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="groupsTestNG" enabled="true" level="INFORMATION" enabled_by_default="true">
+      <option name="groups">
+        <value>
+          <list size="0" />
+        </value>
+      </option>
     </inspection_tool>
   </profile>
 </component>
