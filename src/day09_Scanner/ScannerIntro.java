@@ -1,45 +1,49 @@
 package day09_Scanner;
 
+
 import java.util.Scanner;
 
 public class ScannerIntro {
-
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in); // declaring scanner shortcut is to type in Scan
 
-        System.out.println("Enter your first number:");
+        System.out.println("Enter your first number: ");
+        byte num1 = input.nextByte();
 
-        byte num1 = input.nextByte(); // -128 ~ 127
 
-        System.out.println("Enter your second number:");
-
+        System.out.println("Enter your second number: ");
         short num2 = input.nextShort();
 
-        System.out.println("Enter your third number:");
 
+        System.out.println("Enter your third number:");
         int num3 = input.nextInt();
 
+        
         System.out.println("Enter your fourth number:");
-
         long num4 = input.nextLong();
 
-        input.close(); // scanner is closed, can not read user inputs again
 
-        /*
-        System.out.println("Enter your fifth number:");
-        int num5 = input.nextInt();
-        Scanner is closed at line 27, once it's closed can not read inputs
-*/
+        input.close();
+
         System.out.println("First number: "+num1);
-        System.out.println("Second number: " + num2);
-        System.out.println("Third number: "+num3);
-        System.out.println("Fourth number: "+num4);
-        //   System.out.println("Fifth number: "+num5);
+        System.out.println("Second number: "+num2);
+
+        // byte num = input.nextByte();
+        //short num = input.nextShort();
 
 
-        // input.close(); // scanner is closed, can not read user inputs again
     }
-
-
 }
+/*
+nextByte()                  Returns input as a byte
+nextShort()                 Returns input as a short
+nextInt()                   Returns input as an int
+nextLong()                  Returns input as a long
+nextFloat()                 Returns input as a float
+nextDouble()                Returns input as a double
+nextBoolean()               Returns input as a boolean
+next()                      Returns input as a String, reads the input only until a space
+nextLine()                  Returns input as a String, reads the entire input until the new line (press enter)
+variableForScanner.close()  Closes the scanner
+ */
