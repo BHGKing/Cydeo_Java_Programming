@@ -47,3 +47,4 @@ next()                      Returns input as a String, reads the input only unti
 nextLine()                  Returns input as a String, reads the entire input until the new line (press enter)
 variableForScanner.close()  Closes the scanner
  */
+//test
