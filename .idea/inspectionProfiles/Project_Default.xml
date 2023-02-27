@@ -1344,7 +1344,7 @@
     <inspection_tool class="JSNonASCIINames" enabled="true" level="INFORMATION" enabled_by_default="true" />
     <inspection_tool class="JSNonStrictModeUsed" enabled="false" level="INFORMATION" enabled_by_default="false" />
     <inspection_tool class="JSObjectNullOrUndefined" enabled="true" level="INFORMATION" enabled_by_default="true" />
-    <inspection_tool class="JSOctalInteger" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSOctalInteger" enabled="true" level="INFORMATION" enabled_by_default="true" editorAttributes="REASSIGNED_LOCAL_VARIABLE_ATTRIBUTES" />
     <inspection_tool class="JSPotentiallyInvalidConstructorUsage" enabled="true" level="INFORMATION" enabled_by_default="true" />
     <inspection_tool class="JSPotentiallyInvalidTargetOfIndexedPropertyAccess" enabled="true" level="INFORMATION" enabled_by_default="true" />
     <inspection_tool class="JSPotentiallyInvalidUsageOfClassThis" enabled="true" level="INFORMATION" enabled_by_default="true" />
@@ -1506,7 +1506,10 @@
     <inspection_tool class="ListenerMayUseAdapter" enabled="false" level="TEXT ATTRIBUTES" enabled_by_default="false" />
     <inspection_tool class="LiteralAsArgToStringEquals" enabled="false" level="TEXT ATTRIBUTES" enabled_by_default="false" />
     <inspection_tool class="LoadLibraryWithNonConstantString" enabled="false" level="TEXT ATTRIBUTES" enabled_by_default="false" />
-    <inspection_tool class="LocalCanBeFinal" enabled="false" level="TEXT ATTRIBUTES" enabled_by_default="false" />
+    <inspection_tool class="LocalCanBeFinal" enabled="true" level="TEXT ATTRIBUTES" enabled_by_default="true">
+      <option name="REPORT_VARIABLES" value="true" />
+      <option name="REPORT_PARAMETERS" value="true" />
+    </inspection_tool>
     <inspection_tool class="LocalVariableHidingMemberVariable" enabled="false" level="TEXT ATTRIBUTES" enabled_by_default="false" />
     <inspection_tool class="LocalVariableName" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="LocalVariableNamingConvention" enabled="false" level="TEXT ATTRIBUTES" enabled_by_default="false" />
@@ -1766,7 +1769,7 @@
     <inspection_tool class="ObsoleteKotlinJsPackages" enabled="true" level="ERROR" enabled_by_default="true" />
     <inspection_tool class="ObviousNullCheck" enabled="true" level="TEXT ATTRIBUTES" enabled_by_default="true" />
     <inspection_tool class="OctalAndDecimalIntegersMixed" enabled="false" level="TEXT ATTRIBUTES" enabled_by_default="false" />
-    <inspection_tool class="OctalLiteral" enabled="true" level="TEXT ATTRIBUTES" enabled_by_default="true" />
+    <inspection_tool class="OctalLiteral" enabled="true" level="TEXT ATTRIBUTES" enabled_by_default="true" editorAttributes="NOT_USED_ELEMENT_ATTRIBUTES" />
     <inspection_tool class="OnDemandImport" enabled="false" level="TEXT ATTRIBUTES" enabled_by_default="false" />
     <inspection_tool class="OneButtonGroup" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="OnlyOneElementUsed" enabled="true" level="TEXT ATTRIBUTES" enabled_by_default="true" />
