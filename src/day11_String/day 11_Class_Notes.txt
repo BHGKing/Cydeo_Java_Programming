@@ -57,7 +57,7 @@ String Methods:
 	lastIndexOf(str): returns the index number of last occurred character. returns int
 
 
-	replace(oldValue, newValue): returns new string by repalcing All the old values with the given new value.
+	replace(oldValue, newValue): returns new string by replacing All the old values with the given new value.
 
 
 	replaceFirst(oldValue, newValue): returns new string by replacing  the FIRST matching old values with the given new value.
