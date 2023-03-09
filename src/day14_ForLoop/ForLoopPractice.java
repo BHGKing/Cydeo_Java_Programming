@@ -27,8 +27,8 @@ public class ForLoopPractice {
 
         // print all the alphabet letters A ~ Z
 
-        for(char i = 'A';  i <= 'Z'; i++){
-            System.out.print(i +" ");
+        for(char a = 'A';  a <= 'Z'; a++){
+            System.out.print(a +" ");
         }
 
         System.out.println();
